@@ -74,7 +74,7 @@ The repo includes guides on **stake fairness seed** formats and helper tools for
 Outputs are probabilistic. While the tool uses historical data, AI summaries, and hash-inspection helpers, no predictor guarantees outcomes. Treat outputs as educational guidance for **crash strategy**, testing, and refinement.
 
 ## Contributing
-We love community involvement! If you want to help enhance the stake crash predictor, simply fork this repository and create a pull request. For step-by-step instructions, see our [contributing guidelines](https://github.com/stake-mines/Stake-Crash-Predictor/blob/main/CONTRIBUTING.md).
+We love community involvement! If you want to help enhance the stake crash predictor, simply fork this repository and create a pull request. For step-by-step instructions, see our [contributing guidelines](https://github.com/stake-mines/stake-crash-predictor/blob/main/CONTRIBUTING.md).
 
 ## Support
 Encountering issues or have questions about The stake crash? Check the “Releases” section for the newest updates and troubleshooting tips. For further assistance or to report a bug, open a thread in the “Issues” tab of this repository.
