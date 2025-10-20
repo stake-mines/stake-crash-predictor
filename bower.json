@@ -1,0 +1,40 @@
+{
+  "name": "stake-mines-sha256",
+  "version": "1.0.0",
+  "main": ["src/sha256.js"],
+  "ignore": [
+    "samples",
+    "tests"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stake-mines/stake-crash-predictor.git"
+  },
+  "homepage": "https://github.com/stake-mines/stake-crash-predictor",
+  "authors": [
+    "mines-predictors"
+  ],
+  "keywords": [
+    "sha256",
+    "sha-256",
+    "hash",
+    "stake",
+    "stake-predictor",
+    "stake-games-bot",
+    "stake-hack",
+    "stake-crash-hack",
+    "stake-crash-strategy",
+    "stake-crash-predictor",
+    "stake-script",
+    "stake-crash-predictor-free",
+    "stake-casino",
+    "stake-predictor-bot",
+    "stake-casino-bot",
+    "stake-casino-crash-predictor",
+    "stake-mines-hack",
+    "stake-mines-predictor",
+    "stake-mines-bot",
+    "stake-mines-predictor-free",
+    "stake-mines"
+  ]
+}

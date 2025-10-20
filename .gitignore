@@ -1,0 +1,44 @@
+# ======================================
+# stake-crash-predictor Git Ignore File
+# Keeps repository clean of build, test,
+# and environment-specific files.
+# ======================================
+
+# Dependency directory
+/node_modules/
+
+# Test coverage and NYC output
+/coverage/
+/.nyc_output/
+
+# Build outputs
+/build/
+/dist/
+
+# Logs and temp files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment and config
+.env
+.env.local
+.env.*.local
+
+# IDE & editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Optional: ignore lock files if publishing cross-package
+# package-lock.json
+# yarn.lock

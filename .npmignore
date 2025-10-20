@@ -1,0 +1,26 @@
+# ======================================
+# stake-crash-predictor NPM Ignore File
+# Excludes development & CI artifacts 
+# from the published NPM package.
+# ======================================
+
+# Dependency directories
+/node_modules/
+
+# Test coverage and NYC output
+/coverage/
+/.nyc_output/
+
+# Test sources and related configs
+/tests/
+.covignore
+
+# CI and local configuration files
+.travis.yml
+.npmignore
+bower.json
+
+# Common optional ignores (recommended)
+.DS_Store
+*.log
+*.tmp

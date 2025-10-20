@@ -1,0 +1,61 @@
+{
+  "name": "stake-mines-sha256",
+  "version": "1.0.0",
+  "description": "Forked SHA-256 implementation adapted for the stake-crash-predictor project (lightweight SHA-256 / SHA-224 hash function with UTF-8 support).",
+  "main": "src/sha256.js",
+  "devDependencies": {
+    "expect.js": "~0.3.1",
+    "mocha": "~10.8.2",
+    "nyc": "^15.1.0",
+    "tiny-worker": "^2.3.0",
+    "uglify-js": "^3.1.9"
+  },
+  "scripts": {
+    "test": "nyc mocha tests/node-test.js",
+    "report": "nyc --reporter=html --reporter=text mocha tests/node-test.js",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "build": "uglifyjs src/sha256.js -c -m eval --comments -o build/sha256.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stake-mines/stake-crash-predictor.git"
+  },
+  "keywords": [
+    "sha256",
+    "sha-256",
+    "hash",
+    "stake",
+    "stake-predictor",
+    "stake-games-bot",
+    "stake-hack",
+    "stake-crash-hack",
+    "stake-crash-strategy",
+    "stake-crash-predictor",
+    "stake-script",
+    "stake-crash-predictor-free",
+    "stake-casino",
+    "stake-predictor-bot",
+    "stake-casino-bot",
+    "stake-casino-crash-predictor",
+    "stake-mines-hack",
+    "stake-mines-predictor",
+    "stake-mines-bot",
+    "stake-mines-predictor-free",
+    "stake-mines"
+  ],
+  "license": "MIT",
+  "author": "mines-predictors",
+  "homepage": "https://github.com/stake-mines/stake-crash-predictor",
+  "bugs": {
+    "url": "https://github.com/stake-mines/stake-crash-predictor/issues"
+  },
+  "nyc": {
+    "exclude": [
+      "tests"
+    ]
+  },
+  "browser": {
+    "crypto": false,
+    "buffer": false
+  }
+}
