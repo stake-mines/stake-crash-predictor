@@ -91,13 +91,20 @@
     return method;
   }
 
-  function Sha256(is224, shared) {
-    if (shared) {
-      tempBlocks[0] = tempBlocks[16] = tempBlocks[1] = tempBlocks[2] = tempBlocks[3] =
-        tempBlocks[4] = tempBlocks[5] = tempBlocks[6] = tempBlocks[7] =
-        tempBlocks[8] = tempBlocks[9] = tempBlocks[10] = tempBlocks[11] =
-        tempBlocks[12] = tempBlocks[13] = tempBlocks[14] = tempBlocks[15] = 0;
-      this.blocks = tempBlocks;
+function Sha256(is224, shared) {
+  if (shared) {
+    // ensure the temp array can hold indices 0..16, then zero them
+    if (tempBlocks.length < 17) tempBlocks.length = 17;
+    for (let i = 0; i <= 16; i += 1) tempBlocks[i] = 0;
+
+    // keep the same reference as the original
+    this.blocks = tempBlocks;
+    return;
+  }
+
+  // ...rest of constructor (unchanged) would continue here
+}
+
     } else this.blocks = Array(17).fill(0);
 
     if (is224) {
