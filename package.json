@@ -1,6 +1,6 @@
 {
   "name": "stake-mines-sha256",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Forked SHA-256 implementation adapted for the stake-crash-predictor project (lightweight SHA-256 / SHA-224 hash function with UTF-8 support).",
   "main": "src/sha256.js",
   "devDependencies": {
